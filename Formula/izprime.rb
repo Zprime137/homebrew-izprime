@@ -1,8 +1,8 @@
 class Izprime < Formula
   desc "High-performance prime sieving library and CLI"
   homepage "https://github.com/Zprime137/iZprime"
-  url "https://github.com/Zprime137/iZprime/archive/refs/tags/v1.0.1.tar.gz"
-  sha256 "2d9d2367447471544f6fe93af84788adf3c6bdb34299a30299e06024c57d22a3"
+  url "https://github.com/Zprime137/iZprime/archive/refs/tags/v1.0.2.tar.gz"
+  sha256 "c37baa6e2aeb834628e13c87439a36614101dabb0a97167460cd5db75669cc63"
   license "MIT"
   head "https://github.com/Zprime137/iZprime.git", branch: "main"
 
@@ -15,7 +15,6 @@ class Izprime < Formula
   end
 
   test do
-    output = shell_output("#{bin}/izprime help")
-    assert_match "iZprime CLI", output
+    assert_match "iZprime CLI", shell_output("#{bin}/izprime help")
   end
 end
