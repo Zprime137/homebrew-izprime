@@ -1,8 +1,8 @@
 class Izprime < Formula
   desc "High-performance prime sieving library and CLI"
   homepage "https://github.com/Zprime137/iZprime"
-  url "https://github.com/Zprime137/iZprime/archive/refs/tags/v1.2.0.tar.gz"
-  sha256 "065d9dcdb64da098a35f85fefa2913318032b5ce6b07682b09103fcad5ce54c3"
+  url "https://github.com/Zprime137/iZprime/archive/refs/tags/v1.2.1.tar.gz"
+  sha256 "3e1db869200fb07da80763210322e4928aa56ce76c5df1d8836605346edaef25"
   license "MIT"
   head "https://github.com/Zprime137/iZprime.git", branch: "main"
 
